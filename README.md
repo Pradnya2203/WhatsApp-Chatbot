@@ -18,9 +18,11 @@ Step 3: Create an account on openai, generate and add the open_api_key in the .e
 
 ### How to use this repository
 
-Step 1: Run ``` python main.py ``` in your first terminal
+Step 1: Run ``` pip install -r requirements.txt ``` in your first terminal
 
-Step 2: Run ``` ngrok http 5000 ``` in your second terminal
+Step 2: Run ``` python main.py ``` in your first terminal
 
-Step 3: Add the ngrok link to your twilio account in the settings section and now you are all ready to use this chatbot
+Step 3: Run ``` ngrok http 5000 ``` in your second terminal
+
+Step 4: Add the ngrok link to your twilio account in the settings section and now you are all ready to use this chatbot
 
