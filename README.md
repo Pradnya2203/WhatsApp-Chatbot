@@ -11,10 +11,10 @@ TWILIO_SID=
 TWILIO_TOKEN=
 ```
 Step 2: Create account on twilio and add the Twilio SID and Twilio token in the .env file 
-        /n twilio: https://www.twilio.com/en-us
+                twilio: https://www.twilio.com/en-us
 
 Step 3: Create an account on openai, generate and add the open_api_key in the .env file 
-        /n openai: https://openai.com/
+                openai: https://openai.com/
 
 ### How to use this repository
 
