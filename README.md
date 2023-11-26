@@ -3,21 +3,24 @@
  
 ### Steps to setup this repository
 
-Step 1: Creat a .env file and copy the following code 
+Step 1: Create a .env file in the main directory and copy the following code 
 
-```OPENAI_API_KEY=
+```
+OPENAI_API_KEY=
 TWILIO_SID=
 TWILIO_TOKEN=
 ```
-Step 2: create account on twilio and add the twilio sid and twilio token in the .env file
+Step 2: Create account on twilio and add the Twilio SID and Twilio token in the .env file in front of the TWILIO_SID & TWILIO_TOKEN respectively
+        twilio: https://www.twilio.com/en-us
 
-Step 3: Create an account on openai and add the open_api_key in the .env file
+Step 3: Create an account on openai, generate and add the open_api_key in the .env file in front of the OPENAI_API_KEY
+        openai: https://openai.com/
 
 ### How to use this repository
 
-Step 1: in your terminal run ```python main.py```
+Step 1: Run ``` python main.py ``` in your first terminal
 
-Step 2: in some other terminal run ```ngrok http 5000```
+Step 2: Run ``` ngrok http 5000 ``` in your second terminal
 
-Step 3: add the ngrok link to your twilio account and you are all ready to use this chatbot
+Step 3: Add the ngrok link to your twilio account in the settings section and now you are all ready to use this chatbot
 
